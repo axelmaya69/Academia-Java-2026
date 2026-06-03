@@ -1,17 +1,18 @@
 public class Calculadora {
 
+    //Declaracion de metodos sobrecargados
     public static int sumar(int a, int b) {
         return a + b;
     }
-
+    //Metodo sobrecargado para sumar doubles
     public static double sumar(double a, double b) {
         return a + b;
     }
-
+    //Metodo sobrecargado para sumar 3 valores
     public static int sumar(int a, int b, int c) {
         return a + b + c;
     }
-
+    //Metodo sobrecargado para sumar un arreglo de numeros enteros
     public static int sumar(int[] numeros){
         int total = 0;
         for(int i = 0; i < numeros.length; i++){
